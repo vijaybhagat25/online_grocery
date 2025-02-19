@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    header h1{
+        text-align: center;
+    }
+.div-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+    .div1{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center ;
+     border: solid 2px black;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     width: 250px;
+margin-left: 20px;
+margin-left: 20px;
+    }
+    .div1 p{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .div1 a{
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgb(52, 170, 12);
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 600;
+        width: 200px;
+        text-align: center;
+    }
+</style>
+<body>
+    <header>
+        <h1>DASHBOARD</h1>
+    </header>
+    <section>
+        <div class="div-main">
+
+            <div class="div1">
+    
+              <p>products Added</p>
+              <div style="display: flex; ">
+                <a style="width: 90px;" href="see_product.php">See products</a>
+                <a style="width: 90px; margin-left: 3px;" href="add_form_p_page.html">Add products</a>
+            </div>
+            </div>
+
+            <div class="div1">
+        
+              <p>total orders</p>
+                <a href="total_order.php">See orders</a>
+            </div>
+
+            <div class="div1">
+         
+              <p>total user</p>
+                <a href="total_user.php">See user</a>
+            </div>
+
+            <div class="div1">
+           
+              <p>total massage</p>
+                <a href="see_massage.php">See massage</a>
+            </div>
+            <div class="div1">
+            <p>Logout</p>
+                <a href="logout.php">LOGOUT</a>
+            </div>
+        </div>
+       
+
+
+        </div>
+    </section>
+</body>
+</html>

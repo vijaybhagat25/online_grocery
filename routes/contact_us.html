@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="form-div">
+        
+        <form action="../api/contact_us.php" method="post" >
+            <header>GET IN TOUCH</header>
+            <input type="text" class="name-input" name="name" placeholder="Enter your name" style="width: 330px;" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="number" name="phone" placeholder="Enter your Phone" required>
+          <textarea name="message" id="" placeholder="Enter your message" required style="margin-top: 10px; height: 150px; border: solid 1px; border-radius: 4px  ; font-size: 20px; outline: none; "></textarea>
+            <button>Send Message</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

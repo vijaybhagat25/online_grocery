@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="form-div">
+
+        <form action="../api/register.php" method="post" enctype="multipart/form-data" autocomplete="off">
+            <header>Registretion here</header>
+            <div class="name-input-div">
+                <input type="text" class="name-input" name="fname" placeholder=" first name" required>
+                <input type="text" class="name-input"  name="lname" placeholder=" last name" required>
+            </div>
+            <input type="number" name="phone" placeholder=" your Phone" required>
+            <input type="email" name="email" placeholder=" your email" required>
+            <input type="password" name="password" placeholder=" your password" required>
+            <input type="password" name="c_password" placeholder=" Conform password" required>
+        
+            <button type="submit">Send</button>
+            <p>Already signed up?<a href="login.html">Login now</a></p>
+        </form>
+
+    </div>
+</body>
+
+</html>
